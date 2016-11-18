@@ -5,6 +5,9 @@ return array(
 	'forms' => array(
 		array('name' => 'bill_day_count', 'type' => 'select', 'value' => '5'),
 	),
+    'lock_time' => true,//锁定任务时间，不可修改
+    'default_time' => array('day' => '0', 'week' => '', 'hour' => '4', 'minute' => ''),
+    
 );
 
 // end
